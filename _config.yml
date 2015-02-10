@@ -1,0 +1,7 @@
+name: ""
+description: ""
+
+paginate: 10
+
+markdown: rdiscount
+permalink: pretty
