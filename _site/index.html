@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <title></title>
+    <title>Ben Pearce</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
 
@@ -32,7 +32,7 @@
 
     <div class="navbar navbar-inverse navbar-fixed-top">
       <div class="navbar-inner">
-        <a class="brand" href="#"></a>
+        <a class="navbar-brand" href="#">Ben Pearce</a>
       </div>
     </div>
 
@@ -47,7 +47,7 @@
   <div class="panel panel-default">
     <div class="panel-heading" role="tab" id="headingOne">
       <h3 class="panel-title">
-        <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+        <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
           Repair Buddy
         </a>
       </h3>
@@ -113,6 +113,29 @@
       </div>
     </div>
   </div>
+  <div class="panel panel-default">
+    <div class="panel-heading" role="tab" id="headingThree">
+      <h3 class="panel-title">
+        <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseFour" aria-expanded="false" aria-controls="collapseThree">
+          NYC Housing Maps
+        </a>
+      </h3>
+    </div>
+    <div id="collapseFour" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+      <div class="panel-body">
+        <p>
+          Rails application using Google Maps and the GeoXML3.js library for displaying housing data in New York City.
+          The application currently shows median rent by zipcode and allows selection of dates from which data is available.
+          Data is supplied from Zillow using the Quandl API. To support the GeoXML3 library, I gemified the JavaScript asset.
+        </p>
+        <p>
+          <a href="http://nychousingmaps.bcpearce.com">Demo</a>
+           | <a href="https://github.com/bcpearce/housing-data-map">Source</a>
+           | <a href="https://github.com/bcpearce/geoxml-rails">GeoXML Gem Source</a>
+        </p>
+      </div>
+    </div>
+  </div>
 </div>
 
     </div>
@@ -122,8 +145,6 @@
     <!--<img src="https://avatars2.githubusercontent.com/u/8270674?v=3&s=460" class="img-circle img-responsive">-->
   </div>
   <div class="col-xs-7"></div>
-</div>
-<div class="row">
 </div>
 
     </div>

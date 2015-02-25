@@ -10,7 +10,7 @@ layout: default
   <div class="panel panel-default">
     <div class="panel-heading" role="tab" id="headingOne">
       <h3 class="panel-title">
-        <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+        <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
           Repair Buddy
         </a>
       </h3>
@@ -72,6 +72,29 @@ layout: default
           <a href="http://chess.bcpearce.com">Demo</a>
            | <a href="https://github.com/bcpearce/sinatra-chess">Source</a>
            | <a href="https://github.com/bcpearce/command-line-chess">Chess Gem Source</a>
+        </p>
+      </div>
+    </div>
+  </div>
+  <div class="panel panel-default">
+    <div class="panel-heading" role="tab" id="headingThree">
+      <h3 class="panel-title">
+        <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseFour" aria-expanded="false" aria-controls="collapseThree">
+          NYC Housing Maps
+        </a>
+      </h3>
+    </div>
+    <div id="collapseFour" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+      <div class="panel-body">
+        <p>
+          Rails application using Google Maps and the GeoXML3.js library for displaying housing data in New York City.
+          The application currently shows median rent by zipcode and allows selection of dates from which data is available.
+          Data is supplied from Zillow using the Quandl API. To support the GeoXML3 library, I gemified the JavaScript asset.
+        </p>
+        <p>
+          <a href="http://nychousingmaps.bcpearce.com">Demo</a>
+           | <a href="https://github.com/bcpearce/housing-data-map">Source</a>
+           | <a href="https://github.com/bcpearce/geoxml-rails">GeoXML Gem Source</a>
         </p>
       </div>
     </div>
